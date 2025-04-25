@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# 🧑‍💻 조민주 포트폴리오
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+개발자 조민주의 기술 포트폴리오입니다.  
+프론트엔드부터 백엔드까지 전반적인 웹 서비스 개발 역량을 정리하고, 주요 프로젝트와 기술 스택을 소개합니다.
 
-## Available Scripts
+<!-- [🔗 데모 보기 (예: Netlify, Vercel)](https://your-demo-url.com) -->
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📁 프로젝트 구조
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+src/
+├── App.jsx               # 메인 컴포넌트
+├── index.js             # React 진입점
+├── App.css              # 스타일
+├── components/          # 분리된 기능별 컴포넌트
+│   ├── Section.jsx
+│   ├── SkillList.jsx
+│   ├── ProjectList.jsx
+│   └── EducationList.jsx
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ 사용 기술
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React** (CRA 기반 구성)
+- **HTML5 / CSS3**
+- **JavaScript (ES6+)**
+- 컴포넌트 기반 구조화
+- 반응형 스타일 + 뱃지 디자인
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📚 주요 기능
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 💼 기술 스택 뱃지 표시
+- 🧩 프로젝트 리스트 구성
+- 🎓 학력/자격증/소개 정리
+- ✨ 커스텀 CSS로 디자인 개선
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 실행 방법
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# 1. 프로젝트 클론
+git clone https://github.com/your-username/your-portfolio.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 2. 폴더 이동
+cd your-portfolio
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# 3. 패키지 설치
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# 4. 로컬 서버 실행
+npm start
+```
 
-## Learn More
+> Node.js 16+ 권장  
+> 브라우저에서 `http://localhost:3000` 접속
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🧑‍🎓 개발자 소개
 
-### Code Splitting
+| 이름 | 조민주 |
+|------|--------|
+| 이메일 | sucresucces@icloud.com |
+| GitHub | [github.com/SUCRESUCCES](https://github.com/SUCRESUCCES) |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📌 향후 계획
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- 📱 반응형 뷰 완성
+- 🌓 다크 모드 지원
+- 🔗 외부 프로젝트 링크 연결
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📄 라이선스
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+이 프로젝트는 개인 포트폴리오 용도로 사용되며, 자유롭게 참고/포크하셔도 됩니다.
